@@ -419,5 +419,35 @@ background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(2
     flex-flow: wrap;
   }
 }
+@media (max-width: 1000px) {
+  .card {
+    width: 70%;
+  }
+  .container_cards {
+    margin-left: 0px;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-left: 170px;
+  }
+  .pie_pagina .group_1 .box .github a {
+    margin-left: 85px;
+  }
+  .pie_pagina .group_1 .box .github figure img {
+    width: 120px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1250px) {
+  .container_cards {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 1750px) {
+  .container_cards {
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
