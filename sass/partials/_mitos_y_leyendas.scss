@@ -17,6 +17,7 @@ $c-bezier: cubic-bezier(.1,.22,.8,1.13);
     width: 320px;
     height: 504px;
     margin: 20px;
+    margin-bottom: 40px;
     perspective: 2000px;
 
     &-inner{
@@ -68,7 +69,12 @@ $c-bezier: cubic-bezier(.1,.22,.8,1.13);
         background-image: url(../images/el_sombreron.jpg);
     }
 }
-@media (max-width: 1000px) {
+@media (min-width: 751px){
+    .p_mitos{
+        display: none;
+    }
+}
+@media (max-width: 1000px){
     .cards-grid{
         display: flex;
         margin: 80px;
@@ -76,7 +82,4 @@ $c-bezier: cubic-bezier(.1,.22,.8,1.13);
         align-items: center;
         justify-content: center;
     }
-}
-@media (max-width: 1000px){
-
 }

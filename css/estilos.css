@@ -463,6 +463,7 @@ background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(2
   width: 320px;
   height: 504px;
   margin: 20px;
+  margin-bottom: 40px;
   perspective: 2000px;
 }
 .flip-card-inner {
@@ -513,6 +514,11 @@ background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(2
   background-image: url(../images/el_sombreron.jpg);
 }
 
+@media (min-width: 751px) {
+  .p_mitos {
+    display: none;
+  }
+}
 @media (max-width: 1000px) {
   .cards-grid {
     display: flex;
