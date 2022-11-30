@@ -121,10 +121,14 @@
     color: black;
     font-size: 22px;
   }
+  .div_contacto{
+    margin-top: 50px;
+  }
   /* footer*/
   .pie_pagina{
     width: 100%;
     background-color: #297373;
+    margin-top: 166px;
   }
   .pie_pagina .group_1{
     width: 100%;
@@ -340,6 +344,9 @@ background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(2
   }
   .container_cards{
     width: 80%;
+  }
+  .pie_pagina{
+    margin-top: 50px;
   }
 }
 @media(max-width: 1000px){
