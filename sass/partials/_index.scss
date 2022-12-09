@@ -275,14 +275,20 @@
     background: rgb(48,45,253);
     background: linear-gradient(335deg, rgba(48,45,253,0.28895308123249297) 0%, rgba(255,0,0,0.27494747899159666) 100%);
   }
-  /* .div_container{
-    background: rgb(9,38,121);
-background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(255,0,0,0.6026785714285714) 68%);
-  } */
-  /* fin de galería */
   /* carousel */
   .tamanio_carousel{
     height: 80vh;
+  }
+  /*contacto*/
+  .tamanio_contact{
+    height: 14vh;
+    margin: 10px 10px;
+  }
+  .h1_contact{
+    text-align: center;
+  }
+  .p_contacto{
+    margin: 10px 10px;
   }
 /* vista mobile */
 @media(max-width: 750px){
@@ -349,7 +355,7 @@ background: linear-gradient(90deg, rgba(9,38,121,0.5998774509803921) 45%, rgba(2
     margin-top: 50px;
   }
 }
-@media(max-width: 1000px){
+@media screen and (max-width: 1000px){
   .card{
     width: 90%;
   }
