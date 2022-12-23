@@ -50,15 +50,54 @@
         </header>
         <h1 class="h1_contact">Contacto</h1>
         <main>
-          <p class="p_contacto"><b>Contáctanos</b> dejanos tu mensaje, pregunta o comentario... o simplemente escribemos para colocarnos en contacto será un gusto antenderte.</p>
-          <div class="mb-3 tamanio_contact">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreoelectronico@gmail.com">
-          </div>
-          <div class="mb-3 tamanio_contact">
-            <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          <section class="d-flex justify-content-center align-items-center">
+            <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4"> 
+                <div class="mb-4 d-flex justify-content-start align-items-center">
+                  
+                    <h4>  <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+                </div>
+                <div class="mb-1">
+                    <form id = "contacto" >
+                        <div class="mb-4 d-flex justify-content-between"> 
+                            <div>
+                                <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "ej: Lautaro" required>
+                                <div class="nombre text-danger "></div>
+                            </div>
+                            <div >
+                                <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                                <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "ej: Acosta" required>
+                                <div class="apellido text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                            <input type="email" class="form-control" name="correo" id="correo" placeholder= "ej: tucorreo@gmail.com" required>
+                            <div class="correo text-danger"></div>
+                            
+                        </div> 
+                        <div class="mb-4">
+                            <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+                            <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
+                            <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
+                            <div class="sexo text-danger"></div>
+                        </div>  
+                        <div class="mb-4">
+                            <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
+                            <div class="mensaje text-danger"></div>
+                        </div> 
+                        
+                        <div class="mb-2">
+                            <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                                <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                            </button>
+                        </div> 
+                                  
+                    </form>
+                </div>
+            </div>
+        </section>
         </main>
       <footer class="pie_pagina">
         <div class="group_1">
